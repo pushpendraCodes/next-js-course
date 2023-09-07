@@ -1,0 +1,12 @@
+
+Server Component -
+                  . render on the server side / or execution on the server side called server components
+                 . By default all components are server components
+                 .they are  closer to the backend
+                 . so backend related login and code should write in server compoenents
+                 . server componnets increse the security , helps in seo and it increse speed becoz logic executtes on server intead client so less load in braosers,
+
+
+
+- to make client components we write use client on top of the component
+- we put all the ui related element we put in client component like button , seach bar , event handelling , hooks
