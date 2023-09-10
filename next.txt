@@ -7,6 +7,10 @@ Server Component -
                  . server componnets increse the security , helps in seo and it increse speed becoz logic executtes on server intead client so less load in braosers,
 
 
-
+Client Component -
 - to make client components we write use client on top of the component
 - we put all the ui related element we put in client component like button , seach bar , event handelling , hooks
+
+
+Routing -
+      .file based routing
