@@ -4,10 +4,8 @@ import Link from "next/link"
 const AboutStudentPage = () => {
   return (
     <div>
-      <h3>about page for Student</h3>
-      <Link href="/">
-        Go to Home
-      </Link>
+      <h3 className="heading">about page for Student</h3>
+
     </div>
   )
 }

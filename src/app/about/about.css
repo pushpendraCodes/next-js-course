@@ -1,0 +1,15 @@
+.links{
+    display: flex;
+    gap: 25px;
+}
+.links li{
+    text-decoration: none;
+    list-style: none;
+}
+.links li a{
+    text-decoration: none;
+
+}
+.heading{
+    text-align: center;
+}
