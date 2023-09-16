@@ -27,17 +27,17 @@ export default function Home() {
 
   return (
     <main>
-      <h2>{name}</h2>
+      {/* <h2>{name}</h2> */}
 
-      <button
+      {/* <button
         onClick={() => {
           handelClick();
         }}
       >
         click
-      </button>
-      {/* <InnerComponent/> */}
-      {InnerComponent()}
+      </button> */}
+
+      {/* {InnerComponent()} */}
       <br />
       <button
         onClick={() => {
@@ -45,13 +45,34 @@ export default function Home() {
         }}
       >
         Go to login page
-      </button><br/>
+      </button>
+
+      <br/>
+      <br/>
       <button
         onClick={() => {
           handelroute("/about");
         }}
       >
         Go to about page
+      </button>
+
+      <br/>
+      <br/>
+      <button
+        onClick={() => {
+          handelroute("/study");
+        }}
+      >
+        Go to study page
+      </button>  <br/>
+      <br/>
+      <button
+        onClick={() => {
+          handelroute("/productList");
+        }}
+      >
+        Go to productlist page
       </button>
     </main>
   );
